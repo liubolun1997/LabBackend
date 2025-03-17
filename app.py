@@ -19,6 +19,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 
 db = SQLAlchemy(app)
 
+# test modify
 
 class Enrollment(db.Model):
     id = db.Column(db.Integer, primary_key=True)
